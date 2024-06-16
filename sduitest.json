@@ -1,0 +1,46 @@
+[
+  {
+    "type": "Text",
+    "props": {
+      "text": "Welcome to the Server-Driven UI!"
+    }
+  },
+  {
+    "type": "Button",
+    "props": {
+      "title": "Click Me",
+      "onPress": "handlePress"
+    }
+  },
+  {
+    "type": "View",
+    "props": {
+      "style": {
+        "flexDirection": "row"
+      }
+    },
+    "children": [
+      {
+        "type": "TextInput",
+        "props": {
+          "placeholder": "Enter your name"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "Hello, "
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "User"
+        },
+        "state": {
+          "name": ""
+        }
+      }
+    ]
+  }
+]
