@@ -1,0 +1,13 @@
+(self["webpackChunkremoteApp"] = self["webpackChunkremoteApp"] || []).push([["components_MyCard_js-_2aef1"],{
+
+/***/ "./components/MyCard.js":
+/*!******************************!*\
+  !*** ./components/MyCard.js ***!
+  \******************************/
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+var _interopRequireDefault=__webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");Object.defineProperty(exports, "__esModule", ({value:true}));exports["default"]=void 0;var _react=_interopRequireDefault(__webpack_require__(/*! react */ "webpack/sharing/consume/default/react/react?fe66"));var _reactNative=__webpack_require__(/*! react-native */ "webpack/sharing/consume/default/react-native/react-native?c119");var _jsxRuntime=__webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");var _this=this,_jsxFileName="C:\\Users\\rakes\\react-native-cli\\remoteApp\\components\\MyCard.js";var MyCard=function MyCard(){return(0,_jsxRuntime.jsx)(_reactNative.View,{style:styles.card,children:(0,_jsxRuntime.jsx)(_reactNative.Text,{style:styles.text,children:"Hello from Updated*** RemoteApp!"})});};var styles=_reactNative.StyleSheet.create({card:{padding:20,backgroundColor:'#b0ff5b',borderRadius:10,shadowColor:'#000',shadowOffset:{width:0,height:2},shadowOpacity:0.1,shadowRadius:8,elevation:5},text:{fontSize:18}});var _default=exports["default"]=MyCard;
+
+/***/ })
+
+}]);//# sourceMappingURL=components_MyCard_js-_2aef1.chunk.bundle.map?platform=android
