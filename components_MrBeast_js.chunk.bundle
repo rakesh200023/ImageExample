@@ -1,0 +1,13 @@
+(self["webpackChunkmyRemote"] = self["webpackChunkmyRemote"] || []).push([["components_MrBeast_js"],{
+
+/***/ "./components/MrBeast.js":
+/*!*******************************!*\
+  !*** ./components/MrBeast.js ***!
+  \*******************************/
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+var _interopRequireDefault=__webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");Object.defineProperty(exports, "__esModule", ({value:true}));exports["default"]=void 0;var _reactNative=__webpack_require__(/*! react-native */ "webpack/sharing/consume/default/react-native/react-native?eb83");var _react=_interopRequireDefault(__webpack_require__(/*! react */ "webpack/sharing/consume/default/react/react?d12c"));var _jsxRuntime=__webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");var _this=this,_jsxFileName="C:\\Users\\rakes\\react-native-cli\\myRemote\\components\\MrBeast.js";var MrBeast=function MrBeast(_ref){var productName=_ref.productName,image=_ref.image;return(0,_jsxRuntime.jsxs)(_reactNative.View,{style:styles.container,children:[(0,_jsxRuntime.jsx)(_reactNative.View,{style:styles.imageContainer,children:(0,_jsxRuntime.jsx)(_reactNative.Image,{style:{flex:1},resizeMode:"cover",source:{uri:image}})}),console.log('PRODUCT-NAME',productName),console.log('PRODUCT-image',image),(0,_jsxRuntime.jsxs)(_reactNative.View,{style:styles.detailsContainer,children:[(0,_jsxRuntime.jsx)(_reactNative.Text,{style:styles.heading,children:productName}),(0,_jsxRuntime.jsx)(_reactNative.Text,{style:styles.meta,children:"Rs 2000.00"})]})]});};var styles=_reactNative.StyleSheet.create({container:{margin:1,flexDirection:'column',backgroundColor:'rgba(255, 255, 255, 0)',height:400,width:'100%',borderColor:'#004f09',borderWidth:0,borderRadius:9,overflow:'hidden'},imageContainer:{height:314,backgroundColor:'#ffffff',borderRadius:11,overflow:'hidden'},detailsContainer:{flex:2,backgroundColor:'#ff8b8b',paddingTop:7,paddingLeft:8},heading:{fontFamily:'Matemasie-Regular',color:'#000000',fontSize:16,marginBottom:5},meta:{marginTop:8,fontSize:14,fontWeight:'bold',color:'#202020',letterSpacing:2.5}});var _default=exports["default"]=MrBeast;
+
+/***/ })
+
+}]);//# sourceMappingURL=components_MrBeast_js.chunk.bundle.map?platform=android
