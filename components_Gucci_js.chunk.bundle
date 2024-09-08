@@ -1,0 +1,13 @@
+(self["webpackChunkmyRemote"] = self["webpackChunkmyRemote"] || []).push([["components_Gucci_js"],{
+
+/***/ "./components/Gucci.js":
+/*!*****************************!*\
+  !*** ./components/Gucci.js ***!
+  \*****************************/
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+var _interopRequireDefault=__webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");Object.defineProperty(exports, "__esModule", ({value:true}));exports["default"]=void 0;var _reactNative=__webpack_require__(/*! react-native */ "webpack/sharing/consume/default/react-native/react-native?eb83");var _react=_interopRequireDefault(__webpack_require__(/*! react */ "webpack/sharing/consume/default/react/react?d12c"));var _jsxRuntime=__webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");var _this=this,_jsxFileName="C:\\Users\\rakes\\react-native-cli\\myRemote\\components\\Gucci.js";var Gucci=function Gucci(_ref){var productName=_ref.productName,image=_ref.image;return(0,_jsxRuntime.jsxs)(_reactNative.View,{style:styles.container,children:[(0,_jsxRuntime.jsx)(_reactNative.View,{style:styles.imageContainer,children:(0,_jsxRuntime.jsx)(_reactNative.Image,{style:{flex:1},resizeMode:"cover",source:{uri:'https://effilo.com/cdn/shop/files/05.jpg?v=1721798106&width=832'}})}),console.log('PRODUCT-NAME',productName),console.log('PRODUCT-image',image),(0,_jsxRuntime.jsxs)(_reactNative.View,{style:styles.detailsContainer,children:[(0,_jsxRuntime.jsx)(_reactNative.Text,{style:styles.heading,children:productName}),(0,_jsxRuntime.jsx)(_reactNative.Text,{style:styles.meta,children:"$ 4980"})]})]});};var styles=_reactNative.StyleSheet.create({container:{margin:1,flexDirection:'column',backgroundColor:'#fff',height:420,width:'100%',overflow:'hidden'},imageContainer:{height:320,backgroundColor:'#acdfff'},detailsContainer:{height:100,backgroundColor:'#ffffff',justifyContent:'center',alignItems:'center'},heading:{fontFamily:'GucciSansPro-Book',color:'#000000',fontSize:16,marginBottom:5},meta:{marginTop:8,fontSize:14,color:'#202020',fontFamily:'GucciSansPro-Book'}});var _default=exports["default"]=Gucci;
+
+/***/ })
+
+}]);//# sourceMappingURL=components_Gucci_js.chunk.bundle.map?platform=android
